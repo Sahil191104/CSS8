@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    width: 85%;
+    height: 500px;
+    border: 2px solid rgb(0, 255, 247);
+    margin: 0 auto;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    max-width: 1000px;
+} 
+
+.data {
+    width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    padding: 20px;
+    border: 2px solid rgb(0, 255, 247);
+    overflow: scroll;
+}
