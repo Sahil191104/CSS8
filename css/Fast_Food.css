@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Moon Dance';
+    src: url(../Moon_Dance/MoonDance-Regular.ttf);
+}
+
+.main {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 29.8%;
+    height: 36%;
+    border-radius: 5px;
+    margin: 25px 25px;
+    float: left;
+}
+
+.image {
+    width: 100%;
+    height: 78%;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.data {
+    width: 100%;
+    height: 22%;
+    border-radius: 5px;
+}
+
+.data p {
+    font-family: 'Moon Dance';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 18PX 0PX;
+}
+
+.logo p {
+    font-family: 'Moon Dance';
+    padding-left: 25px;
+    padding-top: 23px;
+    width: 78%;
+    height: 125px;
+    font-size: 45px;
+    float: left;
+}
+
+.logo1 {
+    width: 22%;
+    float: right;
+}
+
+.logo1 img {
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+#Buton {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#Buton a {
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 60px;
+    background-color: yellowgreen;
+    color: aliceblue;
+}
