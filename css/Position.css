@@ -1,0 +1,50 @@
+.box {
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.StaticDemo {
+    position: static;
+    top: 200px;
+    left: 200px;
+}
+
+.ReletiveDemo {
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.AbsoluteDemo {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.parent {
+    width: 700px;
+    height: 600px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.parentabs {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.fixedDemo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sitckyDemo {
+    position: sticky;
+    top: 30px;
+}
