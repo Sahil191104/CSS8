@@ -1,0 +1,15 @@
+.image {
+    background: #00ffc8 url("./image/beautiful-vertical-shot-taj-mahal-building-agra-india-clear-sky.jpg") no-repeat fixed;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+}
+
+.image1 {
+    float: left;
+}
+
+.image2 {
+    top: 50px;
+    position: absolute;
+}
