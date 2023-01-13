@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .Header { 
-    height: 145px;
+    height: 160px;
     border: 2px solid rebeccapurple;
     font-size: 20px;
     display: flex;
@@ -12,8 +12,8 @@
 }
 
 .logo {
-    width: 12%;
-    height: 120px;
+    width: 10%;
+    height: 135px;
     margin: 10px 10px;
     border: 2px solid rgb(153, 51, 122);
 }
@@ -29,7 +29,7 @@
 }
 
 .data ul li {
-    margin: 45px 80px;
+    margin: 60px 100px;
     list-style: none;
 }
 
@@ -39,33 +39,37 @@
 }
 
 .buton button {
-    margin: 50px 10px;
-    color: rgb(251, 251, 251);
+    margin: 65px 10px;
+    color: rgb(40, 176, 30);
     font-size: 20px;
     border-radius: 8px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    border: 2px solid rgb(111, 86, 19);
 }
 
 .title {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
+    margin: 100px;
 }
 
-.box1 img {
+.box1 h1 {
     background: url("../image/4.png") no-repeat;
     width: 300px;
     height: 300px;
+    color: rgb(4, 255, 0);
 }
 
-.box2 img {
-    background: url("../image/images.jpg") no-repeat;
+.box2 h1 {
+    background: url("../image/2.png") no-repeat;
     width: 300px;
     height: 300px;
+    color: rgb(4, 255, 0);
 }
 
-.box3 img {
+.box3 h1 {
     background: url("../image/5.png") no-repeat;
     width: 300px;
     height: 300px;
+    color: rgb(4, 255, 0);
 }
