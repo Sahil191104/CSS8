@@ -1,0 +1,67 @@
+.container {
+    width: 100%px;
+    height: 650px;
+    background-color: aquamarine;
+    display: flex;
+    font-size: 30px;
+    row-gap: 80px;
+    column-gap: 20px;
+}
+
+.box1 {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(93, 13, 25);
+    color: aliceblue;
+}
+
+.box2 {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(44, 97, 182);
+    color: aliceblue;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justifieditcenter {
+    justify-content: center;
+}
+
+.justifieditspace {
+    justify-content: space-between;
+}
+
+.justifieditAround {
+    justify-content: space-around;
+}
+
+.justifieditevenly {
+    justify-content: space-evenly;
+}
+
+.alingitemscenter {
+    align-items: center;
+}
+
+.alingitemsflex-end {
+    align-items: flex-end;
+}
+
+.alingitemsflex-start {
+    align-items: flex-start;
+}
+
+.alingitemsaround {
+    align-content: space-around;
+}
+
+.alingitemsbetween {
+    align-content: space-between;
+}
+
+.fdj {
+    flex-direction: column;
+}
