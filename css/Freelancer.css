@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 74.9%;
+    margin: 0 auto;
+    margin-top: -3.5px;
+}
+
+.container h2 {
+    height: 47.97px;
+    font-size: 41px;
+    color: #0e1724;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #0e1724;
+}
