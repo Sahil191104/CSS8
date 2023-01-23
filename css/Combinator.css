@@ -1,0 +1,50 @@
+/* Direct Child */
+.combi > p {
+    color: black0;
+}
+
+/* h2 with p */
+.combi h2 + p {
+    font-size: 20px;
+}
+
+/* direct */
+.combi div ~ p {
+    font-style: italic;
+}
+
+.archor a:link {
+    color: darkorange;
+}
+
+.archor a:hover {
+    color: red;
+}
+
+.archor a:active {
+    color: yellow;
+}
+
+.archor a:visited {
+    color: green;
+}
+
+ul li:first-child p {
+    color: rebeccapurple;
+}
+
+ul li:last-child p {
+    font-size: 29px;
+}
+
+ul li:nth-child(3) p {
+    color: red;
+}
+
+p i:first-child {
+    font-style: italic;
+}
+
+p:first-child {
+    font-weight: 800;
+}
