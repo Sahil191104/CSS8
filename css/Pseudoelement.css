@@ -1,0 +1,23 @@
+/* .logo p::first-letter {
+    font-size: 30px;
+}
+
+.logo p::first-line {
+    color: blue;
+}
+
+.data h1 + p::first-line {
+    
+} */
+
+.vadilal ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.vadilal ul li::before {
+    content: '*';
+    color: #fff;
+    background-color: #a52a2a;
+    padding: 4px 3px;
+}

@@ -64,8 +64,12 @@ hr {
 .work {
     display: flex;
     gap: 0px 100px;
-    margin-top: 100px;
+    margin-top: 93px;
     margin-left: 12.8px;
+}
+
+.work-logo {
+    margin-top: 8px;
 }
 
 .work-logo img {
@@ -82,23 +86,23 @@ hr {
 .work-desc h2 {
     margin-top: 5px;
     margin-left: 0px;
-    font-size: 40px;
+    font-size: 41px;
 }
 
 .work-desc h3 {
-    font-size: 19px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
 .work-desc p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     margin-left: -0px;
     margin-bottom: 35px;
 }
 
 .work-desc button {
-    font-size: 20px;
+    font-size: 21px;
     background-color: #F20091;
     color: #F7F7F7;
     border: #fff;
