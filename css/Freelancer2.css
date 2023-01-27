@@ -1,0 +1,54 @@
+.box {
+    width: 385px;
+    height: 275px;
+    background-color: blueviolet;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: all 0.4s;
+}
+
+.box:hover img {
+    transform: scale(1.4);
+}
+
+.liner-data {
+    position: absolute;
+    background-color: rgba(0 0 0 / .3);
+    inset: 0;
+    opacity: 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.liner-data button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.liner-data button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.liner-data:hover {
+    opacity: 1;
+}
