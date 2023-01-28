@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 35px;
+    background-color: #F0f0f0;
+    border: 1px solid #e0e0e0bc;
+    color: #777777;
+    display: flex;
+}
+
+.icon {
+    padding-left: 185px;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon i{
+    padding: 9px 10px;
+    font-size: 14.5px;
+}
+
+.ic:hover i {
+    color: #E76453;
+}
+
+.data {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    padding-left: 455px;
+    font-size: 14.5px;
+}
+
+.da {
+    padding: 9px 10px;
+    cursor: pointer;
+}
+
+.da:hover p {
+    color: #E76453;
+}   
