@@ -56,3 +56,37 @@ header nav ul li ul li ul {
     left: 135px;
     position: absolute;
 }
+
+@media screen and (max-width: 770px) {
+    nav > ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: blueviolet;
+        width: 70%;
+        height: 100vh;
+    }
+
+    header nav ul li {
+        display: block;
+    }
+
+    header nav ul li ul, header nav ul li ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    header nav ul li a:hover {
+        width: 100%;
+    }
+
+    header nav ul li ul li > a {
+        padding-left: 50px;
+    }
+
+    header nav ul li ul li ul li > a {
+        padding-left: 70px;
+    }
+}
