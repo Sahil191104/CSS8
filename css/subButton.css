@@ -21,11 +21,13 @@ header nav ul li {
     display: inline-block;
     list-style: none;
     position: relative;
+    transition: all 1s;
 }
 
 header nav ul li a:hover {
     background-color: black;
     color: #FFF;
+    transition: all 1.3s;
 }
 
 header nav ul li ul {
@@ -46,7 +48,7 @@ header nav ul li ul li a {
     width: 100%;
 }
 
-header nav ul li:hover > ul {
+header nav ul li:hover>ul {
     display: inline-block;
 }
 
@@ -57,21 +59,31 @@ header nav ul li ul li ul {
     position: absolute;
 }
 
+nav>i, nav ul>i {
+    display: none !important;
+}
+
+header nav ul li:hover > a i {
+    transform: rotate(90deg);
+}
+
 @media screen and (max-width: 770px) {
-    nav > ul {
+    nav>ul {
         position: absolute;
         top: 0;
-        right: 0;
+        right: -70%;
         background-color: blueviolet;
         width: 70%;
         height: 100vh;
+        transition: all 1s;
     }
 
     header nav ul li {
         display: block;
     }
 
-    header nav ul li ul, header nav ul li ul li ul {
+    header nav ul li ul,
+    header nav ul li ul li ul {
         position: relative;
         top: 0;
         left: 0;
@@ -82,11 +94,31 @@ header nav ul li ul li ul {
         width: 100%;
     }
 
-    header nav ul li ul li > a {
+    header nav ul li ul li>a {
         padding-left: 50px;
     }
 
-    header nav ul li ul li ul li > a {
+    header nav ul li ul li ul li>a {
         padding-left: 70px;
+    }
+
+    nav ul > i {
+        float: right;
+        padding: 17px 20px;
+        color: #FFF;
+        font-size: 30px;
+        z-index: 999;
+        position: relative;
+        display: inline-block !important;
+    }
+
+    nav>i {
+        padding: 20px;
+        font-size: 20px;
+        display: inline-block !important;
+    }
+
+    .showHide {
+        right: 0;
     }
 }
