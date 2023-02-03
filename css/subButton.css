@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.9s;
+    font-family: sans-serif;
 }
 
 header {
     justify-content: space-between;
     display: flex;
-    font-family: sans-serif;
 }
 
 header a {
@@ -21,13 +22,13 @@ header nav ul li {
     display: inline-block;
     list-style: none;
     position: relative;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 
 header nav ul li a:hover {
     background-color: black;
     color: #FFF;
-    transition: all 1.3s;
+    /* transition: all 1.3s; */
 }
 
 header nav ul li ul {
