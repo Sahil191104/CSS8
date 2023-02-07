@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: gray;
 }
@@ -12,4 +18,111 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.main-slider .slick-prev:before {
+    content: "\f104";
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+.main-slider .slick-prev {
+    left: 30px;
+    top: 50%;
+    width: 45px;
+    height: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+}
+
+.main-slider .slick-next:before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+.main-slider .slick-next {
+    right: 30px;
+    top: 50%;
+    width: 45px;
+    height: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.main-slider .slick-dots li button::before {
+    font-size: 50px;
+    color: chocolate;
+}
+
+.main-slider .slick-dots {
+    bottom: 0;
+}
+
+/* SECOND-Slider*/
+
+.Second-slider .Second {
+    width: 250px;
+    height: 60vh;
+}
+
+.Second-slider .Second img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Second-slider .fa-angle-left:before {
+    content: "\f104";
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+.Second-slider .fa-angle-left {
+    left: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 3px solid rgb(124, 103, 120);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    color: rgb(65, 39, 60);
+    cursor: pointer;
+}
+
+.Second-slider .fa-angle-right:before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+.Second-slider .fa-angle-right {
+    right: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 3px solid rgb(124, 103, 120);
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(65, 39, 60);
+    cursor: pointer;
+}
+
+.Second-slider .slick-dots li button::before {
+    font-size: 80px;
+    color: cadetblue;
+}
+
+.Second-slider .slick-dots {
+    bottom: 5px;
+    color: darkgrey;
 }
